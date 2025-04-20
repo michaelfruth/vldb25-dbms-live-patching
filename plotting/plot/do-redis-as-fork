@@ -3,4 +3,6 @@
 source INPUT_BASE_DIRECTORY
 source OUTPUT_DIRECTORY
 ./exec-file-py --input-data $INPUT_BASE_DIRECTORY/redis-1-200_400kB/data --output $OUTPUT_DIRECTORY --plot plot-redis-as-fork-line.R --prefix "Redis-"
+./exec-file-py --input-data $INPUT_BASE_DIRECTORY/redis-1-200_400kB/data --output $OUTPUT_DIRECTORY --plot plot-redis-as-fork-line1.R --prefix "Redis-"
+./exec-file-py --input-data $INPUT_BASE_DIRECTORY/redis-1-200_400kB/data --output $OUTPUT_DIRECTORY --plot plot-redis-as-fork-line2.R --prefix "Redis-"
 
