@@ -3,4 +3,7 @@
 source INPUT_BASE_DIRECTORY
 source OUTPUT_DIRECTORY
 ./exec-file-py --input-data $INPUT_BASE_DIRECTORY/one-thread-per-connection/one-thread-per-connection.duckdb $INPUT_BASE_DIRECTORY/threadpool/threadpool.duckdb --output $OUTPUT_DIRECTORY --plot plot-qps-time.R
+./exec-file-py --input-data $INPUT_BASE_DIRECTORY/one-thread-per-connection/one-thread-per-connection.duckdb $INPUT_BASE_DIRECTORY/threadpool/threadpool.duckdb --output $OUTPUT_DIRECTORY --plot plot-qps-time1.R
+./exec-file-py --input-data $INPUT_BASE_DIRECTORY/one-thread-per-connection/one-thread-per-connection.duckdb $INPUT_BASE_DIRECTORY/threadpool/threadpool.duckdb --output $OUTPUT_DIRECTORY --plot plot-qps-time2.R
+./exec-file-py --input-data $INPUT_BASE_DIRECTORY/one-thread-per-connection/one-thread-per-connection.duckdb $INPUT_BASE_DIRECTORY/threadpool/threadpool.duckdb --output $OUTPUT_DIRECTORY --plot plot-qps-time3.R
 
